@@ -2,7 +2,7 @@
   "name": "gulp-start",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://github.com/Torandori/music_project",
+  "homepage": "https://github.com/Torandori/music_mate",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.29.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
