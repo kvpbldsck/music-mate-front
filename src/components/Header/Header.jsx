@@ -5,18 +5,23 @@ import './Header.css';
 function Header() {
   return (
     <header id="header">
-      <nav id="main-menu">
-        <ul>
-          {NavData.map((item) => {
-            return (
-              <li key={item.name}>
-                <NavLink to={item.to} title={item.title}>{item.name}</NavLink>
-              </li>
-            )
-          })
-          }
-        </ul>
-      </nav>
+      <div className="container">
+        <nav id="main-menu" aria-label="Main Navigation">
+          <ul>
+            {NavData.map((item) => {
+              return (
+                <li key={item.name}>
+                  <NavLink to={item.to} title={item.title}
+                  className={({ isActive }) => isActive ? 'active' : ''}>
+                    {item.name}
+                  </NavLink>
+                </li>
+              )
+            })
+            }
+          </ul>
+        </nav>
+      </div>
     </header>
   )
 }

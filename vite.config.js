@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/music_mate/',
-  plugins: [react()],
+  plugins: [react()]
 })

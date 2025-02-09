@@ -1,14 +1,16 @@
 import { Outlet } from "react-router-dom";
-import Header from '../../components/Header/Header.jsx'
+// import Header from '../../components/Header/Header.jsx'
 
 function Default() {
   return (
-    <div className="global-container">
-      <Header/>
-      <main className="cntr-default-layout">
-        <Outlet/>
+    <>
+      {/* <Header/> */}
+      <main>
+        <div className="container">
+          <Outlet/>
+        </div>
       </main>
-    </div>
+    </>
   )
 }
 export default Default; 

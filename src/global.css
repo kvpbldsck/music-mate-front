@@ -1,5 +1,14 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding-top: 80px;
+}
+.container {
+  margin-inline: auto;
+  width: min(90%,1280px);
 }
