@@ -12,3 +12,9 @@
   margin-inline: auto;
   width: min(90%,1280px);
 }
+.light-theme {
+  background-color: white;
+}
+.dark-theme {
+  background-color: darkgrey;
+}

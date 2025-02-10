@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { NavData } from '../../data/navigation';
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 import './Header.css';
 
 function Header() {
@@ -21,6 +22,7 @@ function Header() {
             }
           </ul>
         </nav>
+        <ThemeSwitcher/>
       </div>
     </header>
   )
