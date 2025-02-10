@@ -1,0 +1,9 @@
+.btn-toggle {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  min-width: 200px;
+  text-align: center;
+  color: darkgrey;
+}

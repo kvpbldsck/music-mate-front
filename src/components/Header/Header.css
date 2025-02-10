@@ -1,0 +1,29 @@
+#header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: lightgrey;
+  height: 80px;
+}
+#header .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; 
+  gap: 40px;
+}
+#main-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+#main-menu ul li a {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#main-menu .active {
+  font-weight: bold;
+}
